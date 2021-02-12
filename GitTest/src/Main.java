@@ -6,6 +6,8 @@ public class Main {
 NumberUtils numberUtils=new NumberUtils();
 int result=numberUtils.addNumbers(3, 5);
 System.out.println(result);
+int resultMultiply=numberUtils.multiplyNumbers(3, 5);
+System.out.println(resultMultiply);
 	}
 
 }
